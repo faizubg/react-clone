@@ -1,0 +1,98 @@
+footer {
+  background: rgb(34, 39, 59);
+  color: rgb(223, 222, 222);
+  padding: 40px 20px;
+  font-family: sans-serif;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-about {
+  flex: 1 1 250px;
+}
+
+.footer-about h2 {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.contact-info li {
+  margin-bottom: 8px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+  flex: 2 1 400px;
+}
+
+.footer-links h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.chat-button {
+  flex: 1 1 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.chat-button button {
+  background-color: #1db954;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgb(60, 60, 61);
+  margin-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  color: rgb(189, 188, 188);
+}
+.social-icons span,
+.footer-policy span {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.footer-policy :hover{
+  color: white;
+
+}
+.social-icons span:hover {
+  color: white;
+}
+/* end of footer styles */
