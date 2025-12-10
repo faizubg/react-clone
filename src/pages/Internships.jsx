@@ -2,7 +2,9 @@ import React from 'react'
 
 function Internships() {
   return (
-    <div>Internships</div>
+    <div className="container">
+      <h1 style={{ color: "blue" }}>welcome intern </h1>
+    </div>
   )
 }
 

@@ -11,6 +11,10 @@ function Navbar() {
           <li className='iteam'><Link to="/courses">Courses</Link></li>
           <li className='iteam'><Link to="/internships">Internships</Link></li>
           <li className='iteam'><Link to="/blogs">Blogs</Link></li>
+          <ul className="navbar">
+            <li className='iteam'><Link to="/login">Login</Link></li>
+            <li className='iteam'><Link to="/register">Register</Link></li>
+          </ul>
         </ul>
       </nav>
     </div>
